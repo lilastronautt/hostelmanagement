@@ -1,0 +1,159 @@
+.navbar {
+    display: flex;
+    margin-bottom: 74px;
+}
+
+.navbar-container {
+    position: fixed;
+    -webkit-position: fixed;
+    top: 0;
+    min-width: -moz-available;
+    min-width: -webkit-fill-available;
+    min-width: fill-available;
+    width: 100%;
+    height: 74px;
+    display: flex;
+    padding: 0 2rem;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    background: linear-gradient(180deg, #3C1164 0%, #761B89 50%);
+    z-index: 999;
+}
+
+.logo-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.navbar-logo img {
+    width: 100%;
+    height: 40px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    list-style-type: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.nav-item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.navbar-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-btn {
+    width: Hug (143.63px);
+    padding: 8px 15px 8px 15px;
+    border-radius: 5px;
+    background: #F08A42;
+    cursor: pointer;
+    color: #fff;
+    border: 0;
+}
+
+.nav-item {
+    margin-right: 1.5rem;
+    padding: 3px;
+}
+
+.nav-item {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-item:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.active {
+    color: #4C7031;
+}
+
+.navbar-item:last-child {
+    margin-right: 0;
+}
+
+.navbar-toggle {
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+    .nav-menu {
+        position: fixed;
+        top: 73px;
+        left: -100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 999;
+        transition: all 0.5s ease;
+        background: #761B89 50%;
+        padding-bottom: 20px;
+    }
+
+    .nav-menu.active {
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+
+    .nav-item {
+        margin: 0.5rem 0 !important;
+        padding: 5px 50px;
+    }
+
+    .nav-item:hover {
+        border-bottom: 2px solid #fff;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .navbar-toggle {
+        display: block;
+        font-size: 1.5rem;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .logo-txt {
+        font-size: 18px;
+    }
+
+    .navbar-toggle {
+        font-size: 1.2rem;
+    }
+
+    .navbar-container {
+        padding: 0 1rem;
+    }
+}

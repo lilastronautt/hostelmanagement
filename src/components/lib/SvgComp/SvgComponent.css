@@ -1,0 +1,16 @@
+.HF_svg__maincontainer {
+  text-align: center;
+  background: rgba(100, 98, 98, 0.1);
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.HF_svg__container {
+  width: 10rem;
+}
+
+.time {
+  font-weight: bold;
+}

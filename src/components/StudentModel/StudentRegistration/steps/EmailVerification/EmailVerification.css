@@ -1,0 +1,57 @@
+.emailVerification__box {
+    background: linear-gradient(to right top, #590d9b 10%, #9419bc 30%, #ff9100);
+    width: 70%;
+    margin: auto;
+    height: 20rem;
+    border-radius: 12px;
+    position: absolute;
+    margin-top: -10rem;
+    margin-left: -35%;
+    top: 50%;
+    left: 50%;
+  }
+  
+  .emailId_input {
+    /* background-color: aqua; */
+    width: 70%;
+    height: 5rem;
+    position: absolute;
+    margin-top: -2.5rem;
+    margin-left: -35%;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+  }
+  .emailId_input label {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
+  
+  .emailId_input input {
+    font-size: 1.3rem;
+    width: 25rem;
+    margin: auto;
+    max-width: 90%;
+    min-width: 20%;
+  }
+  
+  .emailId_input input:focus-visible {
+    outline: none;
+  }
+  
+  .emailId_input button {
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    padding: 0.3rem 2rem;
+    border-radius: 6px;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+  
+  .emailId_input button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
