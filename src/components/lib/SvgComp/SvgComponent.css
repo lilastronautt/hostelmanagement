@@ -10,3 +10,7 @@
 .HF_svg__container {
   width: 10rem;
 }
+
+.time {
+  font-weight: bold;
+}
