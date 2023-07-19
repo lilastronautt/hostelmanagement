@@ -1,0 +1,29 @@
+.faq-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    margin: 1% 2%;
+    cursor: pointer;
+    border: 1px solid #761B89;
+    padding: 0% 1%;
+}
+
+.faq-question{
+    border-top: 3px solid #EB731E80;
+    border-bottom: 3px solid #EB731E80;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.active{
+    display: block;
+    color: green;
+    text-align: justify;
+    text-decoration: underline;
+    line-height: 150%;
+}
+
+.deactive{
+    display: none;
+}

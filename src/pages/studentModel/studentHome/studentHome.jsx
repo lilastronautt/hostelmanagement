@@ -10,7 +10,7 @@ import SecurityFacilities from "../../../components/StudentModel/SecurityFacilit
 import MessFacilities from "../../../components/StudentModel/MessFacilities/MessFacilities";
 import MessProvides from "../../../components/StudentModel/MessProvides/MessProvides";
 import TranportationFacilities from "../../../components/StudentModel/TransportationFacilities/TransportationFacilities";
-
+import FAQ from "../../../components/StudentModel/FAQ/FAQ/"
 const studentHome = () => {
   return (
     <div>
@@ -24,6 +24,7 @@ const studentHome = () => {
       <MessProvides />
       <TranportationFacilities />
       <PoliciesAndGuidlines />
+      <FAQ/>
       <StudentQuery />
     </div>
   );
