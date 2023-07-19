@@ -12,7 +12,7 @@ import table from "./hfAssets/table.svg";
 import housekeeping from "./hfAssets/housekeeping.svg";
 import cctv from "./hfAssets/cctv.svg";
 import bio from "./hfAssets/bio.svg";
-import SvgComponent from "./SvgComponent";
+import SvgComponent from "../../lib/SvgComp/SvgComponent";
 import "./HostelFacilities.css";
 
 const HostelFacilities = () => {
@@ -31,36 +31,6 @@ const HostelFacilities = () => {
           <SvgComponent path={housekeeping} text="House Keeping staff" />
           <SvgComponent path={cctv} text="24x7 Under CCTV" />
           <SvgComponent path={bio} text="BioMetric Entrance" />
-          {/* <div>
-            <img src="" alt="HF"></img>
-          </div>
-          <div>
-            <img src="" alt="HF"></img>
-          </div>
-          <div>
-            <img src="" alt="HF"></img>
-          </div>
-          <div>
-            <img src="" alt="HF"></img>
-          </div>
-          <div>
-            <img src="" alt="HF"></img>
-          </div>
-          <div>
-            <img src="" alt="HF"></img>
-          </div>
-          <div>
-            <img src="" alt="HF"></img>
-          </div>
-          <div>
-            <img src="" alt="HF"></img>
-          </div>
-          <div>
-            <img src="" alt="HF"></img>
-          </div>
-          <div>
-            <img src="" alt="HF"></img>
-          </div> */}
         </section>
       </Card>
     </SectionContainer>

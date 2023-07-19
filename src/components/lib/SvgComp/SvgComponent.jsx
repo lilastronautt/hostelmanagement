@@ -1,11 +1,12 @@
 import "./SvgComponent.css";
 
-const SvgComponent = ({ path, text }) => {
+const SvgComponent = ({ path, text, time, t }) => {
   return (
     <div className="HF_svg__maincontainer">
-      <div className="HF_svg__container">
+      <div className={"HF_svg__container" + " " + t}>
+        <p className="time">{time}</p>
         <img src={path}></img>
-        <p>{text}</p>
+        <div>{text}</div>
       </div>
     </div>
   );
